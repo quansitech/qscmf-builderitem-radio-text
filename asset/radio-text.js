@@ -77,7 +77,7 @@
             }
 
             box.addEventListener('click', function(ev){
-                var checkedDivs = document.querySelectorAll('.qs-radio-text-div.checked');
+                var checkedDivs = self.el.querySelectorAll('.qs-radio-text-div.checked');
 
                 for (var i = 0; i < checkedDivs.length; i++) {
                     checkedDivs[i].className = 'qs-radio-text-div';
